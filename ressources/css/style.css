@@ -23,16 +23,25 @@ header{
   width: 1140px;
   transform: translate(-50%,-50%);
 }
+
 .btn{
   padding: 10px 30px;
   border: 1px solid #fff;
   border-radius: 50px;
-  font-weight: 300i;
+  font-weight: 100;
 }
+.btn:hover{
+  border: 5px solid pink;
+}
+
 .btn-full{
   background-color: pink;
   color: #fff;
 }
-.btn-ghost{
+.btn-ghost:hover{
 color:pink;
+}
+.btn-ghost{
+  background-color: black;
+  color: white;
 }
