@@ -77,3 +77,24 @@ margin-top: 30px
   color: #fff;
   font-size: 90%;
 }
+
+.ion-android-star{
+  font-size: 40px;
+  color: red;
+}
+.ion-heart{
+  font-size: 40px;
+  color: #aaa69d;
+}
+.ion-woman{
+  font-size: 40px;
+  color: pink;
+}
+.ion-ios-game-controller-b{
+  font-size: 40px;
+  color: #34ace0;
+}
+
+.col-md-3{
+  text-align: center;
+}
