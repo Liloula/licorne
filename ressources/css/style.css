@@ -149,3 +149,67 @@ width: 25%
   opacity: 1;
   transform: scale(1);
 }
+
+/*-----------mobile-----------*/
+.col-mobile{
+  margin-top: 30px;
+}
+.col-mobile:first-child{
+text-align: right;
+padding-right: 3%;
+}
+.col-mobile:last-child{
+padding-left: 3%;
+}
+.iphone{
+width: 40%;
+}
+.service-mobile div{
+text-align: center;
+border: 3px solid orange;
+border-radius: 50%;
+height:50px;
+width: 50px;
+float: left;
+margin-right: 25px;
+font-size: 150%;
+}
+.service-mobile{
+  margin-bottom: : 50%;
+}
+.btn-a img{
+height: 50px;
+width: auto;
+margin-right: 20%;
+}
+/*------------info centre-----------*/
+.col-md-3 img{
+width: 105%
+}
+
+.ion-android-pin{
+  font-size: 40px;
+  color: purple;
+}
+.ion-android-call{
+  font-size: 40px;
+  color: purple;
+}
+.ion-android-mail{
+  font-size: 40px;
+  color: purple;
+}
+/*--------correction info centre -------*/
+h3{
+  font-size: 120%;
+  margin-bottom:15px;
+  text-transform: uppercase;
+}
+.icon-small{
+  color: orange;
+  margin-right: 10px;
+  font-size: 120%;
+}
+.city{
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
