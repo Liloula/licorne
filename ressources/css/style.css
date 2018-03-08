@@ -38,15 +38,14 @@ h2::after{
   background-color: #e67e22;
   margin: 0 auto;
   margin-top: 15px;
-  content: " "
+  content: " ";
 }
 h2::before{
-  content: " "
+  content: " ";
 }
 .long-copy{
-
-line-height: 145%
-margin-left:5%
+line-height: 145%;
+margin-left:5%;
 }
 
 .manga-text-box{
@@ -88,9 +87,9 @@ margin-left:5%
 
 /*----------logo menu--------------*/
 .logo{
-height: 100px;
+height: 70px;
 float: left;
-margin-top: 20px;
+margin-top: 30px;
 }
 
 .logo-black{
@@ -98,19 +97,14 @@ margin-top: 20px;
   width: auto;
   float: left;
   margin: 20px 0;
+  display: none;
 }
-
-.logo-black{display: none;}
-
-.sticky .logo {display: none;}
-
-.sticky .logo-black {display: block;}
 
 /*-----------menu----------------*/
 .main-nav{
 list-style: none;
 float: right;
-margin-top: 30px
+margin-top: 30px;
 }
 
 .main-nav li{
@@ -124,12 +118,18 @@ margin-top: 30px
   font-size: 90%;
 }
 
-.sticky{
+.sticky .logo {
+  display: none;
+}
+.sticky .logo-black {
+display: block;
+}
+.sticky {
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  background-color: rgba( 255, 255, 255, 0.9);
   z-index: 9999;
   box-shadow: 0 2px 2px #eee;
 }
