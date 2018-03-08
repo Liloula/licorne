@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="ressources/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->"
+  <!-- Bootstrap CSS -->
   <title>licorne</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:100i,300i,400,900" rel="stylesheet">
 
@@ -19,9 +19,11 @@
   <header>
     <nav>
       <div class="row">
-        <img class="logo" src="ressources/css/img/dbz.png" alt="logo dbz">
+        <img class="logo" src="ressources/css/img/dbz.png" alt="logo arinfo">
+        <img class="logo-black" src="ressources/css/img/logo-black.png" alt="logo arinfo">
+
         <ul class="main-nav">
-          <li><a href="#livres">Livres</a></li>
+          <li><a class="js-scroll-livres" href="#">Livres</a></li>
           <li><a href="#">Dvd</a></li>
           <li><a href="#">Jeu video</a></li>
           <li><a href="#">Contact</a></li>
@@ -35,7 +37,7 @@
     </div>
   </header>
   <!-- les livres -->
-  <section id="livres">
+  <section class="thomas js-section-livres">
     <div class="row">
       <h2>Nouveauté</h2>
       <p class="long-copy">Un manga (漫画?) est une bande dessinée japonaise.
@@ -439,7 +441,9 @@
             </section>
           </footer>
 <!--jquery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="vendors/js/jquery-3.3.1.min.js"></script>
+
+<script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="ressources/js/script.js"></script>
 
 
